@@ -37,19 +37,19 @@
 let x = 0;
 let y = 0;
 document.addEventListener("keydown", function (event) {
-  if (event.key === "ArrowRight" && x < ) {
+  if (event.key === "ArrowRight" && x < 150) {
     x++;
     document.querySelector("#square").style.left = x + "px";
   }
-  if (event.key === "ArrowLeft" && x > 0) {
+  if (event.key === "ArrowLeft") {
     x--;
     document.querySelector("#square").style.left = x + "px";
   }
-  if (event.key === "ArrowUp" && y > 0) {
+  if (event.key === "ArrowUp") {
     y--;
     document.querySelector("#square").style.top = y + "px";
   }
-  if (event.key === "ArrowDown" && y < ) {
+  if (event.key === "ArrowDown") {
     y++;
     document.querySelector("#square").style.top = y + "px";
   }
